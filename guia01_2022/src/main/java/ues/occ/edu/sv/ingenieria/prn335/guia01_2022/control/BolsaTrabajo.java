@@ -13,12 +13,12 @@ public class BolsaTrabajo {
 
     public BolsaTrabajo() {
 
-        persona.add(new Persona(1, "jose", "osorio", "09780780-3", "0210-050788-10-1", "2343232", "M", "06-09-1999", "sistema de prevision", false, "ejemplo isss", "ejemplo nombre isss", "Ejemplo nombre nup", "Jose Osorio", "chepe", "numro de pasaporte", "09-2025", "numero iva", "92839283928", "ahorros", "agricola"));
-        persona.add(new Persona(2, "chepe", "mendoza", "02940480-2", "0210-050788-10-1", "2343232", "M", "06-03-1998", "sistema de prevision", false, "ejemplo isss", "ejemplo nombre isss", "Ejemplo nombre nup", "Jose Osorio", "chepe", "numro de pasaporte", "09-2025", "numero iva", "92839283928", "ahorros", "agricola"));
-        persona.add(new Persona(3, "luis", "figueroa", "81828384-1", "0210-050788-10-1", "2343232", "M", "06-01-1997", "sistema de prevision", false, "ejemplo isss", "ejemplo nombre isss", "Ejemplo nombre nup", "Jose Osorio", "chepe", "numro de pasaporte", "09-2025", "numero iva", "92839283928", "ahorros", "agricola"));
-        persona.add(new Persona(4, "marcos", "rey", "67985289-4", "0210-050788-10-1", "2343232", "M", "06-07-1996", "sistema de prevision", false, "ejemplo isss", "ejemplo nombre isss", "Ejemplo nombre nup", "Jose Osorio", "chepe", "numro de pasaporte", "09-2025", "numero iva", "92839283928", "ahorros", "agricola"));
-        persona.add(new Persona(5, "marvin", "montano", "97807690-5", "0210-050788-10-1", "2343232", "M", "06-09-1995", "sistema de prevision", false, "ejemplo isss", "ejemplo nombre isss", "Ejemplo nombre nup", "Jose Osorio", "chepe", "numro de pasaporte", "09-2025", "numero iva", "92839283928", "ahorros", "agricola"));
-
+        persona.add(new Persona(1, "jose", "osorio", "mi casa", "M", "1999/09/06", true, "chepe", "No", "soltero/a"));
+        persona.add(new Persona(2, "jose", "clemente", "su casa", "M", "2000/01/03", true, "armando", "No", "soltero/a"));
+        persona.add(new Persona(3, "carlos", "roberto", "candelaria", "M", "2001/09/04", true, "carlitos", "No", "soltero/a"));
+        persona.add(new Persona(4, "cristiano", "ronaldo", "soyapango", "M", "1985/02/05", true, "el bicho", "No", "casado/a"));
+        persona.add(new Persona(5, "leonel", "messi", "apopa", "M", "1987/05/24", true, "la pulga", "No", "casado/a"));
+        
     }
 
     public ArrayList<Persona> getPersona() {
